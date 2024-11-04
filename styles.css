@@ -1,0 +1,105 @@
+/*algemeen*/
+
+body{
+    background-color: #FDF5E2;
+    color: #FDF5E2;
+}
+
+header footer img{
+    width: 378px;
+}
+
+a {
+    text-decoration: none;
+    color: #29532C;
+}
+
+img{
+    display: block;
+    margin: 0 auto; 
+}
+
+
+h2{
+    color: #29532C;
+    text-align: center;
+    margin: 2px 0;
+}
+
+.vakje{
+    background-color: #DF7D60;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: 10px 10px 0px #A56048;
+}
+
+/*navigatiebalk*/
+nav{
+    position: absolute;
+    top: 17em; 
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #FDF5E2;
+    padding: 10px;
+    
+}
+
+nav a{
+    color: #FDF5E2;
+    transition: background-color 0.3s, color 0.3s; 
+    display: inline-block;
+    background-color: #A56048;
+    border-radius: 20px;
+    padding: 10px; 
+    box-shadow: 5px 5px 0px #DF7D60;
+    font-size: large; 
+    margin: 5px;
+    white-space: nowrap;
+}
+
+nav a:active {
+   transform: scale(0.80);
+   border-radius: 20px;
+}
+
+.aanwezig{
+   transition: background-color 0.3s, color 0.3s; 
+   background-color: #DF7D60;
+   box-shadow: 5px 5px 0px #A56048;
+}
+
+
+
+/*home*/
+ button{
+    color: antiquewhite;
+    text-align: center;
+    background-color: #DF7D60;
+    border-radius: 20px;
+    border-color: #DF7D60;
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 5px 5px 0px #A56048;
+ }
+ 
+button:active{
+    transform: scale(0.80);
+}
+
+
+/*hoe het werkt*/
+
+
+
+/*mijn ervaring*/
+
+/*footer*/
+footer .vakje{
+    margin-bottom: 100px;
+}
