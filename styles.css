@@ -93,7 +93,7 @@ nav a:active {
 
 
 /*home*/
- button{
+ .knop{
     color: antiquewhite;
     text-align: center;
     background-color: #DF7D60;
@@ -105,7 +105,7 @@ nav a:active {
     box-shadow: 5px 5px 0px #A56048;
  }
  
-button:active{
+.knop:active{
     transform: scale(0.80);
 }
 
