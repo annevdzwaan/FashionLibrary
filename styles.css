@@ -81,7 +81,6 @@ nav a{
 
 nav a:active {
    transform: scale(0.80);
-   border-radius: 20px;
 }
 
 .aanwezig{
@@ -101,7 +100,6 @@ nav a:active {
     border-color: #DF7D60;
     padding: 10px;
     display: block;
-    margin: 20px auto;
     box-shadow: 5px 5px 0px #A56048;
     margin: 40px 90px 40px 90px;
  }
